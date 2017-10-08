@@ -68,3 +68,7 @@ html {
     border: 1px solid black;
 }
 
+.audioplayer {
+    display: none;
+}
+
