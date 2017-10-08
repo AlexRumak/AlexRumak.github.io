@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body onload="draw();">
 	<div class="header row">
 		<div class="col-7">
 			<p>Welcome to the website of the greatest programmer to walk the earth</p>
@@ -24,8 +24,8 @@
 	</div>
 
 	<div class="content row canvasfiller">
-		<canvas id="contentcanvas" class="content-canvas">
-
+		<canvas class="canvas" id="tutorial" width='800' height='800'>
+			Real men of culture use browser's that support canvas objects
 		</canvas>
 	</div>
 
@@ -36,13 +36,5 @@
 		</div>
 	</div>
 </body>
-<script>
-	// var c = document.getElementById("headercanvas");
-	// var ctx = c.getContext("2d");
-	// ctx.font = "30px Arial";
-	// var
-	// while(true) {
-		
-	// }
-</script>
+<script src="canvas.js"></script>
 </html>
