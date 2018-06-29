@@ -72,3 +72,16 @@ html {
     display: none;
 }
 
+div#box
+{
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+}   
+
+button#emcee
+{
+    position: relative;
+    z-index: 2;   
+}
+
