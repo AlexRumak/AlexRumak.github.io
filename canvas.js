@@ -14,7 +14,7 @@ $(document).ready(function() {
     
     caller.on('mouseenter', foo);
     caller.on('click', function(){
-        alert('The secret is not here! Where can it be? Inspect me closer to find out.');
+        alert('The secret is not here! Where can it be? Inspect me where I yell and shout');
     });
     
 });
